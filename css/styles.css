@@ -207,6 +207,13 @@ height: 50px;
 .hero-section {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-color: var(--darkgrey-bg-cl);
+    background-image: url(../images/hero/hero_img.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-item {
@@ -231,9 +238,6 @@ margin-bottom: 50px;
     margin: 0 auto;
 }
 
-.hero-section {
-    background-color: var(--darkgrey-bg-cl);
-}
 /* Section paculiarities */
 .peculiarities-item {
     width: 270px;
